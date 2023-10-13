@@ -51,11 +51,11 @@ const DashBoard = () => {
                 "noopener noreferrer"
               );
 
-              const link = document.createElement("a");
-              link.href = generatedPdfResponse.data?.pdfLink;
-              link.download = new Date().toDateString() + ".pdf";
-              link.click();
-              window.URL.revokeObjectURL(generatedPdfResponse.data?.pdfLink);
+              // const link = document.createElement("a");
+              // link.href = generatedPdfResponse.data?.pdfLink;
+              // link.download = new Date().toDateString() + ".pdf";
+              // link.click();
+              // window.URL.revokeObjectURL(generatedPdfResponse.data?.pdfLink);
             }
           })
           .catch(function (error) {
