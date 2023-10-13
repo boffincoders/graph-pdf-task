@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rotate-270 {
+  transform: rotate(270deg);
+  width: 20px;
+  font-size: 09px;
+  letter-spacing: 1px;
+  /* text-align: center;
+  float: left;
+  z-index: 1111;
+  position: absolute;
+  margin-left: -35px;
+  margin-top: 58px; */
+}
